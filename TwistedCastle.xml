@@ -1,39 +1,83 @@
 <OverlayData>
-	<MarkerCategory name="szg" DisplayName="Personal Markers">
-		<MarkerCategory name="tc" DisplayName="Twisted Castle"/>
+	<MarkerCategory name="szg_tc" DisplayName="Twisted Castle Guide">
+		<MarkerCategory name="vers_info" isseparator="1" DisplayName="Version: 0.3"/>
+		<MarkerCategory name="meta" DisplayName="TC Meta Path"/>
+		<MarkerCategory name="slow" DisplayName="TC Slow Intended Path" defaultToggle="0"/> <!-- Tell BlishHUD not to show the category by default -->
 	</MarkerCategory>
+
 	<POIs>
-		<POI MapID="1156" xpos="-99.5437" ypos="151.08" zpos="197.85" type="szg.tc" GUID="LD/RwOZAP0Ks2k2QXXe3fA==" miniMapVisibility="0" mapVisibility="0" fadeNear="2000" fadeFar="2200" iconFile="Data/Icons/informational.png" iconSize="0.5" info="One person could grab Skip --> Left --> Triple while the main group hits the Arch buttons. Main path is Blue. Skip button is Green. Left button is Yellow. Triple statues button is Orange."/>
+		<!-- TC Meta Path -->
+		<POI MapID="1156" xpos="-99.5437" ypos="151.08" zpos="197.85" type="szg_tc.meta" GUID="LD/RwOZAP0Ks2k2QXXe3fA==" miniMapVisibility="0" mapVisibility="0" fadeNear="2000" fadeFar="2200" iconFile="Data/Icons/informational.png" iconSize="0.5" info="One person could grab Skip --> Left --> Triple while the main group hits the Arch buttons.&#xA;Main path is Blue. Skip button is Green. Left button is Yellow. Triple statues button is White."/>
 
 		<!-- Main Group -->	
-		<Trail trailData="Data/Trails/TC_Main_1.trl" type="szg.tc" texture="Data/Icons/trail.png" color="1E88E5" fadeNear="2000" fadeFar="2200" mapDisplaySize="5"/>
-		<Trail trailData="Data/Trails/TC_Main_2.trl" type="szg.tc" texture="Data/Icons/trail.png" color="1E88E5" fadeNear="2000" fadeFar="2200" mapDisplaySize="5"/>
-		<Trail trailData="Data/Trails/TC_Main_3.trl" type="szg.tc" texture="Data/Icons/trail.png" color="1E88E5" fadeNear="2000" fadeFar="2200" mapDisplaySize="5"/>
-		<POI MapID="1156" xpos="-86.6552" ypos="190.919" zpos="-52.741" type="szg.tc" GUID="muu/WKG3H0O2h2UXlBVEoA==" miniMapVisibility="0" mapVisibility="0" fadeNear="2000" fadeFar="2200" iconFile="Data/Icons/informational.png" iconSize="0.5" info="Heal up to max, then dodge off the edge onto the arch."/>
-		<Trail trailData="Data/Trails/TC_Main_4.trl" type="szg.tc" texture="Data/Icons/trail.png" color="1E88E5" fadeNear="2000" fadeFar="2200" mapDisplaySize="5"/>
-		<POI MapID="1156" xpos="-95.8716" ypos="154.694" zpos="-25.1499" type="szg.tc" GUID="ocsA3DWwEUe1rxQwX3LLyQ==" miniMapVisibility="0" mapVisibility="0" fadeNear="2000" fadeFar="2200" iconFile="Data/Icons/informational.png" iconSize="0.5" info="Hit the two buttons then walk through the gate."/>
-		<POI MapID="1156" xpos="-156.47" ypos="137.341" zpos="-65.4945" type="szg.tc" GUID="OeLPjIESxkW8errWwpYTOQ==" miniMapVisibility="0" mapVisibility="0" fadeNear="2000" fadeFar="2200" iconFile="Data/Icons/informational.png" iconSize="0.5" info="Return to the arch portal."/>
-		<Trail trailData="Data/Trails/TC_Main_5.trl" type="szg.tc" texture="Data/Icons/trail.png" color="1E88E5" fadeNear="2000" fadeFar="2200" mapDisplaySize="5"/>
-		<POI MapID="1156" xpos="-179.58" ypos="201.616" zpos="30.9391" type="szg.tc" GUID="wWVsbkCUskKdlPaUSuB9wQ==" miniMapVisibility="0" mapVisibility="0" fadeNear="2000" fadeFar="2200" iconFile="Data/Icons/informational.png" iconSize="0.5" info="If door not open, waiting for Triple."/>
-		<POI MapID="1156" xpos="-181.703" ypos="201.73" zpos="-9.6264" type="szg.tc" GUID="3l0Z1Cpu1EG6srWDrpD43w==" miniMapVisibility="0" mapVisibility="0" fadeNear="2000" fadeFar="2200" iconFile="Data/Icons/informational.png" iconSize="0.5" info="If door not open, waiting for Arch buttons."/>
-		<Trail trailData="Data/Trails/TC_Main_6.trl" type="szg.tc" texture="Data/Icons/trail.png" color="1E88E5" fadeNear="2000" fadeFar="2200" mapDisplaySize="5"/>
-		<POI MapID="1156" xpos="-68.986" ypos="212.507" zpos="-90.2505" type="szg.tc" GUID="ZH3Q43G6U0GPCBVsnVCkXg==" miniMapVisibility="0" mapVisibility="0" fadeNear="2000" fadeFar="2200" iconFile="Data/Icons/informational.png" iconSize="0.5" info="If door not open, waiting for Left."/>
+		<Trail trailData="Data/Trails/TC_Main_1.trl" type="szg_tc.meta" texture="Data/Icons/trail.png" color="1E88E5" fadeNear="2000" fadeFar="2200" mapDisplaySize="5"/>
+		<Trail trailData="Data/Trails/TC_Main_2.trl" type="szg_tc.meta" texture="Data/Icons/trail.png" color="1E88E5" fadeNear="2000" fadeFar="2200" mapDisplaySize="5"/>
+		<Trail trailData="Data/Trails/TC_Main_3.trl" type="szg_tc.meta" texture="Data/Icons/trail.png" color="1E88E5" fadeNear="2000" fadeFar="2200" mapDisplaySize="5"/>
+		<POI MapID="1156" xpos="-86.6552" ypos="190.919" zpos="-52.741" type="szg_tc.meta" GUID="muu/WKG3H0O2h2UXlBVEoA==" miniMapVisibility="0" mapVisibility="0" fadeNear="2000" fadeFar="2200" iconFile="Data/Icons/informational.png" iconSize="0.5" info="Heal up to max, then dodge off the edge onto the arch."/>
+		<Trail trailData="Data/Trails/TC_Main_4.trl" type="szg_tc.meta" texture="Data/Icons/trail.png" color="1E88E5" fadeNear="2000" fadeFar="2200" mapDisplaySize="5"/>
+		<POI MapID="1156" xpos="-95.8716" ypos="154.694" zpos="-25.1499" type="szg_tc.meta" GUID="ocsA3DWwEUe1rxQwX3LLyQ==" miniMapVisibility="0" mapVisibility="0" fadeNear="2000" fadeFar="2200" iconFile="Data/Icons/informational.png" iconSize="0.5" info="Hit the two buttons then walk through the gate."/>
+		<POI MapID="1156" xpos="-156.47" ypos="137.341" zpos="-65.4945" type="szg_tc.meta" GUID="OeLPjIESxkW8errWwpYTOQ==" miniMapVisibility="0" mapVisibility="0" fadeNear="2000" fadeFar="2200" iconFile="Data/Icons/informational.png" iconSize="0.5" info="Return to the arch portal."/>
+		<Trail trailData="Data/Trails/TC_Main_5.trl" type="szg_tc.meta" texture="Data/Icons/trail.png" color="1E88E5" fadeNear="2000" fadeFar="2200" mapDisplaySize="5"/>
+		<POI MapID="1156" xpos="-179.58" ypos="201.616" zpos="30.9391" type="szg_tc.meta" GUID="wWVsbkCUskKdlPaUSuB9wQ==" miniMapVisibility="0" mapVisibility="0" fadeNear="2000" fadeFar="2200" iconFile="Data/Icons/informational.png" iconSize="0.5" info="If door not open, waiting for Triple."/>
+		<POI MapID="1156" xpos="-181.703" ypos="201.73" zpos="-9.6264" type="szg_tc.meta" GUID="3l0Z1Cpu1EG6srWDrpD43w==" miniMapVisibility="0" mapVisibility="0" fadeNear="2000" fadeFar="2200" iconFile="Data/Icons/informational.png" iconSize="0.5" info="If door not open, waiting for Arch buttons."/>
+		<Trail trailData="Data/Trails/TC_Main_6.trl" type="szg_tc.meta" texture="Data/Icons/trail.png" color="1E88E5" fadeNear="2000" fadeFar="2200" mapDisplaySize="5"/>
+		<POI MapID="1156" xpos="-68.986" ypos="212.507" zpos="-90.2505" type="szg_tc.meta" GUID="ZH3Q43G6U0GPCBVsnVCkXg==" miniMapVisibility="0" mapVisibility="0" fadeNear="2000" fadeFar="2200" iconFile="Data/Icons/informational.png" iconSize="0.5" info="If door not open, waiting for Left."/>
 		
 		<!-- "Left" Button -->
-		<POI MapID="1156" xpos="-62.1941" ypos="121.697" zpos="102.789" type="szg.tc" GUID="WbZYNUUbwUu9X9625Po20A==" miniMapVisibility="0" mapVisibility="0" fadeNear="2000" fadeFar="2200" iconFile="Data/Icons/informational.png" iconSize="0.5" info="Left: One person, take Left button. After hitting it, go through the portal to the start and follow the general path."/>
-		<Trail trailData="Data/Trails/TC_Left_1.trl" type="szg.tc" texture="Data/Icons/trail.png" color="FFC107" fadeNear="2000" fadeFar="2200" mapDisplaySize="5"/>
-		<Trail trailData="Data/Trails/TC_Left_2.trl" type="szg.tc" texture="Data/Icons/trail.png" color="FFC107" fadeNear="2000" fadeFar="2200" mapDisplaySize="5"/>
+		<POI MapID="1156" xpos="-62.1941" ypos="121.697" zpos="102.789" type="szg_tc.meta" GUID="WbZYNUUbwUu9X9625Po20A==" miniMapVisibility="0" mapVisibility="0" fadeNear="2000" fadeFar="2200" iconFile="Data/Icons/informational.png" iconSize="0.5" info="Left: One person, take Left button. After hitting it, go through the portal to the start and follow the general path."/>
+		<Trail trailData="Data/Trails/TC_Left_1.trl" type="szg_tc.meta" texture="Data/Icons/trail.png" color="FFC107" fadeNear="2000" fadeFar="2200" mapDisplaySize="5"/>
+		<Trail trailData="Data/Trails/TC_Left_2.trl" type="szg_tc.meta" texture="Data/Icons/trail.png" color="FFC107" fadeNear="2000" fadeFar="2200" mapDisplaySize="5"/>
 
 		<!-- "Skip" Button -->
-		<Trail trailData="Data/Trails/TC_Skip_Button.trl" type="szg.tc" texture="Data/Icons/trail.png" color="00E7C0" fadeNear="2000" fadeFar="2200" mapDisplaySize="5"/>
-		<POI MapID="1156" xpos="-54.3139" ypos="121.472" zpos="92.5901" type="szg.tc" GUID="ofAr0idG80eIqTr1DfMpPw==" miniMapVisibility="0" mapVisibility="0" fadeNear="2000" fadeFar="2200" iconFile="Data/Icons/informational.png" iconSize="0.5" info="Skip: Must be full health. Use a leap and aim for the Arrow. Rocket boots, Ancestral Grace, Ride the Lightning, etc. After hitting button, walk into statue and follow the main path."/>
-		<POI MapID="1156" xpos="-36.7481" ypos="95.2675" zpos="76.512" type="szg.tc" GUID="wBmB4CLjOE6w7uXWKJt3xg==" miniMapVisibility="0" mapVisibility="0" fadeNear="2000" fadeFar="2200" iconFile="Data/Icons/arrow.png" iconSize="1"/>
+		<Trail trailData="Data/Trails/TC_Skip_Button.trl" type="szg_tc.meta" texture="Data/Icons/trail.png" color="00E7C0" fadeNear="2000" fadeFar="2200" mapDisplaySize="5"/>
+		<POI MapID="1156" xpos="-54.3139" ypos="121.472" zpos="92.5901" type="szg_tc.meta" GUID="ofAr0idG80eIqTr1DfMpPw==" miniMapVisibility="0" mapVisibility="0" fadeNear="2000" fadeFar="2200" iconFile="Data/Icons/informational.png" iconSize="0.5" info="Skip: Must be full health. Use a leap and aim for the Arrow. Rocket boots, Ancestral Grace, Ride the Lightning, etc. After hitting button, walk into statue and follow the main path."/>
+		<POI MapID="1156" xpos="-36.7481" ypos="95.2675" zpos="76.512" type="szg_tc.meta" GUID="wBmB4CLjOE6w7uXWKJt3xg==" miniMapVisibility="0" mapVisibility="0" fadeNear="2000" fadeFar="2200" iconFile="Data/Icons/arrow.png" iconSize="1"/>
 
 		<!-- Triple Button -->
-		<POI MapID="1156" xpos="-86.6377" ypos="190.831" zpos="-58.4637" type="szg.tc" GUID="oEAYI/HnG0KfPLx7TPBBQA==" miniMapVisibility="0" mapVisibility="0" fadeNear="2000" fadeFar="2200" iconFile="Data/Icons/informational.png" iconSize="0.5" info="Triple: One person with tons of mobility or stealth go through the portal, once you hit the button, take the portal back to the start. If the door is closed, wait for main group to hit the two buttons."/>
-		<Trail trailData="Data/Trails/TC_Triple_1.trl" type="szg.tc" texture="Data/Icons/trail.png" color="FF8700" fadeNear="2000" fadeFar="2200" mapDisplaySize="5"/>
-		<POI MapID="1156" xpos="-11.8731" ypos="192.556" zpos="-11.9304" type="szg.tc" GUID="LNGzUPq6tUmTSH76TfcVpg==" miniMapVisibility="0" mapVisibility="0" fadeNear="2000" fadeFar="2200" iconFile="Data/Icons/informational.png" iconSize="0.5" info="If door is closed, waiting for the two buttons on near U platform stairs."/>
-		<Trail trailData="Data/Trails/TC_Triple_2.trl" type="szg.tc" texture="Data/Icons/trail.png" color="FF8700" fadeNear="2000" fadeFar="2200" mapDisplaySize="5"/>
+		<POI MapID="1156" xpos="-86.6377" ypos="190.831" zpos="-58.4637" type="szg_tc.meta" GUID="oEAYI/HnG0KfPLx7TPBBQA==" miniMapVisibility="0" mapVisibility="0" fadeNear="2000" fadeFar="2200" iconFile="Data/Icons/informational.png" iconSize="0.5" info="Triple: One person with tons of mobility or stealth go through the portal, once you hit the button, take the portal back to the start. If the door is closed, wait for main group to hit the two buttons."/>
+		<Trail trailData="Data/Trails/TC_Triple_1.trl" type="szg_tc.meta" texture="Data/Icons/trail.png" color="FFFFFF" fadeNear="2000" fadeFar="2200" mapDisplaySize="5"/>
+		<POI MapID="1156" xpos="-11.8731" ypos="192.556" zpos="-11.9304" type="szg_tc.meta" GUID="LNGzUPq6tUmTSH76TfcVpg==" miniMapVisibility="0" mapVisibility="0" fadeNear="2000" fadeFar="2200" iconFile="Data/Icons/informational.png" iconSize="0.5" info="If door is closed, waiting for the two buttons on near U platform stairs."/>
+		<Trail trailData="Data/Trails/TC_Triple_2.trl" type="szg_tc.meta" texture="Data/Icons/trail.png" color="FFFFFF" fadeNear="2000" fadeFar="2200" mapDisplaySize="5"/>
 
+
+
+		<!-- TC Slow Intended Path  -->
+		
+		<POI MapID="1156" xpos="-96.33" ypos="151.077" zpos="197.482" type="szg_tc.slow" GUID="M5MtHcaHykaoIBg0hC6u8A==" miniMapVisibility="0" mapVisibility="0" fadeNear="2000" fadeFar="2200" iconFile="Data/Icons/informational.png" iconSize="0.5" info="Anet's Intended Route (Don't use unless people suck at the skips): &#xA;-->Split into a Team 1/Arrow (6 People) and Team 2/Circle (4 People)&#xA;-->Team 1 assign someone to Heart to take a branch and hit 1 button.&#xA;-->Team 2 assign 1 person Square and 1 person Star they will branch and hit 1 button.&#xA;-->Each symbol person will hit 1 button and their job is done.&#xA;-->Team 2 is done once they hit the button on E platform."/>
+
+		
+		<Trail trailData="Data/Trails/Team1_Part1.trl" type="szg_tc.slow" texture="Data/Icons/inv_arrow.png" color="44D62C" fadeNear="2000" fadeFar="2200" mapDisplaySize="5"/>
+		<Trail trailData="Data/Trails/Team1_Part2.trl" type="szg_tc.slow" texture="Data/Icons/inv_arrow.png" color="44D62C" fadeNear="2000" fadeFar="2200" mapDisplaySize="5"/>
+		<Trail trailData="Data/Trails/Team1_Part3.trl" type="szg_tc.slow" texture="Data/Icons/inv_arrow.png" color="44D62C" fadeNear="2000" fadeFar="2200" mapDisplaySize="5"/>
+		<Trail trailData="Data/Trails/Team1_Part4.trl" type="szg_tc.slow" texture="Data/Icons/inv_arrow.png" color="44D62C" fadeNear="2000" fadeFar="2200" mapDisplaySize="5"/>
+		<Trail trailData="Data/Trails/Team1_Part5.trl" type="szg_tc.slow" texture="Data/Icons/inv_arrow.png" color="44D62C" fadeNear="2000" fadeFar="2200" mapDisplaySize="5"/>
+		<POI MapID="1156" xpos="-176.075" ypos="118.701" zpos="53.4981" type="szg_tc.slow" GUID="LLTqEf4JlUmEZIPWOsaYWQ==" miniMapVisibility="0" mapVisibility="0" fadeNear="2000" fadeFar="2200" iconFile="Data/Icons/informational.png" iconSize="0.5" info="Send 1 Person to follow heart trail once they hit the button they are done."/>
+		<Trail trailData="Data/Trails/Team1_Branch1.trl" type="szg_tc.slow" texture="Data/Icons/heart.png" color="FF0000" fadeNear="2000" fadeFar="2200" mapDisplaySize="5"/>
+		<Trail trailData="Data/Trails/Team1_Branch2.trl" type="szg_tc.slow" texture="Data/Icons/heart.png" color="FF0000" fadeNear="2000" fadeFar="2200" mapDisplaySize="5"/>
+		<Trail trailData="Data/Trails/Team1_Branch3.trl" type="szg_tc.slow" texture="Data/Icons/heart.png" color="FF0000" fadeNear="2000" fadeFar="2200" mapDisplaySize="5"/>
+		<Trail trailData="Data/Trails/Team1_Part6.trl" type="szg_tc.slow" texture="Data/Icons/inv_arrow.png" color="44D62C" fadeNear="2000" fadeFar="2200" mapDisplaySize="5"/>
+		<POI MapID="1156" xpos="-134.977" ypos="135.002" zpos="-23.4244" type="szg_tc.slow" GUID="erZRcMj2EE69cuW2BJR4bA==" miniMapVisibility="0" mapVisibility="0" fadeNear="2000" fadeFar="2200" iconFile="Data/Icons/informational.png" iconSize="0.5" info="Send 1 Person hit the button and come back."/>
+		<Trail trailData="Data/Trails/Team1_Branch2_Part1.trl" type="szg_tc.slow" texture="Data/Icons/inv_arrow.png" color="44D62C" fadeNear="2000" fadeFar="2200" mapDisplaySize="5"/>
+		<Trail trailData="Data/Trails/Team1_Part7.trl" type="szg_tc.slow" texture="Data/Icons/inv_arrow.png" color="44D62C" fadeNear="2000" fadeFar="2200" mapDisplaySize="5"/>
+
+
+
+		<!-- Team 2 -->
+		<Trail trailData="Data/Trails/Team2_Part1.trl" type="szg_tc.slow" texture="Data/Icons/circle.png" color="FF3EEB" fadeNear="2000" fadeFar="2200" mapDisplaySize="5"/>
+		<Trail trailData="Data/Trails/Team2_Part2.trl" type="szg_tc.slow" texture="Data/Icons/circle.png" color="FF3EEB" fadeNear="2000" fadeFar="2200" mapDisplaySize="5"/>
+		<POI MapID="1156" xpos="-61.3567" ypos="122.128" zpos="97.672" type="szg_tc.slow" GUID="F19/wXuNU0+FqDAcwnfSgQ==" miniMapVisibility="0" mapVisibility="0" fadeNear="2000" fadeFar="2200" iconFile="Data/Icons/informational.png" iconSize="0.5" info="Send 1 Person to follow Square trail once they hit the button they are done."/>
+		<Trail trailData="Data/Trails/Team2_Branch1_Part1.trl" type="szg_tc.slow" texture="Data/Icons/square.png" color="2F2FCC" fadeNear="2000" fadeFar="2200" mapDisplaySize="5"/>
+		<Trail trailData="Data/Trails/Team2_Branch1_Part2.trl" type="szg_tc.slow" texture="Data/Icons/square.png" color="2F2FCC" fadeNear="2000" fadeFar="2200" mapDisplaySize="5"/>
+		<Trail trailData="Data/Trails/Team2_Part3.trl" type="szg_tc.slow" texture="Data/Icons/circle.png" color="FF3EEB" fadeNear="2000" fadeFar="2200" mapDisplaySize="5"/>
+		<POI MapID="1156" xpos="-86.5003" ypos="190.873" zpos="-55.9707" type="szg_tc.slow" GUID="7tjPt4HEKUabMXp3F/kXLw==" miniMapVisibility="0" mapVisibility="0" fadeNear="2000" fadeFar="2200" iconFile="Data/Icons/informational.png" iconSize="0.5" info="Send 1 Person to follow Star trail once they hit the button they are done. Watch out for the 3 statues."/>
+		<Trail trailData="Data/Trails/Team2_Branch2_Part1.trl" type="szg_tc.slow" texture="Data/Icons/star.png" color="FFFFFF" fadeNear="2000" fadeFar="2200" mapDisplaySize="5"/>
+		<Trail trailData="Data/Trails/Team2_Branch2_Part2.trl" type="szg_tc.slow" texture="Data/Icons/star.png" color="FFFFFF" fadeNear="2000" fadeFar="2200" mapDisplaySize="5"/>
+		<Trail trailData="Data/Trails/Team2_Part4.trl" type="szg_tc.slow" texture="Data/Icons/circle.png" color="FF3EEB" fadeNear="2000" fadeFar="2200" mapDisplaySize="5"/>
+		<!-- Can't reach the part for part 5 with the gates off -->
+		<Trail trailData="Data/Trails/Team2_Part5.trl" type="szg_tc.slow" texture="Data/Icons/circle.png" color="FF3EEB" fadeNear="2000" fadeFar="2200" mapDisplaySize="5"/>
+		<Trail trailData="Data/Trails/Team2_Part6.trl" type="szg_tc.slow" texture="Data/Icons/circle.png" color="FF3EEB" fadeNear="2000" fadeFar="2200" mapDisplaySize="5"/>
+		<POI MapID="1156" xpos="-15.031" ypos="173.564" zpos="50.0815" type="szg_tc.slow" GUID="KGJb+BSH+U+Cx8hAavTo7Q==" miniMapVisibility="0" mapVisibility="0" fadeNear="2000" fadeFar="2200" iconFile="Data/Icons/informational.png" iconSize="0.5" info="Team 2 Job is done."/>
+
+		
 	</POIs>
 </OverlayData>
