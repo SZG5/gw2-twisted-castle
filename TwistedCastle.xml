@@ -3,7 +3,7 @@
 		<MarkerCategory name="tc" DisplayName="Twisted Castle"/>
 	</MarkerCategory>
 	<POIs>
-		<POI MapID="1156" xpos="-100.401" ypos="147.724" zpos="192.579" type="szg.tc" GUID="LD/RwOZAP0Ks2k2QXXe3fA==" miniMapVisibility="0" mapVisibility="0" fadeNear="2000" fadeFar="2200" iconFile="Data/Icons/informational.png" iconSize="0.5" info="One person could grab Skip --> Left --> Triple while the main group hits the Arch buttons. Main path is blue. Skip button is Green. Left button is Yellow. Triple statues button is Pink."/>
+		<POI MapID="1156" xpos="-99.5437" ypos="151.08" zpos="197.85" type="szg.tc" GUID="LD/RwOZAP0Ks2k2QXXe3fA==" miniMapVisibility="0" mapVisibility="0" fadeNear="2000" fadeFar="2200" iconFile="Data/Icons/informational.png" iconSize="0.5" info="One person could grab Skip --> Left --> Triple while the main group hits the Arch buttons. Main path is Blue. Skip button is Green. Left button is Yellow. Triple statues button is Orange."/>
 
 		<!-- Main Group -->	
 		<Trail trailData="Data/Trails/TC_Main_1.trl" type="szg.tc" texture="Data/Icons/trail.png" color="1E88E5" fadeNear="2000" fadeFar="2200" mapDisplaySize="5"/>
@@ -20,20 +20,20 @@
 		<POI MapID="1156" xpos="-68.986" ypos="212.507" zpos="-90.2505" type="szg.tc" GUID="ZH3Q43G6U0GPCBVsnVCkXg==" miniMapVisibility="0" mapVisibility="0" fadeNear="2000" fadeFar="2200" iconFile="Data/Icons/informational.png" iconSize="0.5" info="If door not open, waiting for Left."/>
 		
 		<!-- "Left" Button -->
-		<POI MapID="1156" xpos="-62.1941" ypos="121.697" zpos="102.789" type="szg.tc" GUID="WbZYNUUbwUu9X9625Po20A==" miniMapVisibility="0" mapVisibility="0" fadeNear="2000" fadeFar="2200" iconFile="Data/Icons/informational.png" iconSize="0.5" info="One person, take Left button. After hitting it, go through the portal to the start and follow the general path."/>
+		<POI MapID="1156" xpos="-62.1941" ypos="121.697" zpos="102.789" type="szg.tc" GUID="WbZYNUUbwUu9X9625Po20A==" miniMapVisibility="0" mapVisibility="0" fadeNear="2000" fadeFar="2200" iconFile="Data/Icons/informational.png" iconSize="0.5" info="Left: One person, take Left button. After hitting it, go through the portal to the start and follow the general path."/>
 		<Trail trailData="Data/Trails/TC_Left_1.trl" type="szg.tc" texture="Data/Icons/trail.png" color="FFC107" fadeNear="2000" fadeFar="2200" mapDisplaySize="5"/>
 		<Trail trailData="Data/Trails/TC_Left_2.trl" type="szg.tc" texture="Data/Icons/trail.png" color="FFC107" fadeNear="2000" fadeFar="2200" mapDisplaySize="5"/>
 
 		<!-- "Skip" Button -->
-		<Trail trailData="Data/Trails/TC_Skip_Button.trl" type="szg.tc" texture="Data/Icons/trail.png" color="004D40" fadeNear="2000" fadeFar="2200" mapDisplaySize="5"/>
-		<POI MapID="1156" xpos="-54.3139" ypos="121.472" zpos="92.5901" type="szg.tc" GUID="ofAr0idG80eIqTr1DfMpPw==" miniMapVisibility="0" mapVisibility="0" fadeNear="2000" fadeFar="2200" iconFile="Data/Icons/informational.png" iconSize="0.5" info="Must be full health. Use a leap and aim for the Arrow. Rocket boots, Ancestral Grace, Ride the Lightning, etc. After hitting button, walk into statue and follow the main path."/>
+		<Trail trailData="Data/Trails/TC_Skip_Button.trl" type="szg.tc" texture="Data/Icons/trail.png" color="00E7C0" fadeNear="2000" fadeFar="2200" mapDisplaySize="5"/>
+		<POI MapID="1156" xpos="-54.3139" ypos="121.472" zpos="92.5901" type="szg.tc" GUID="ofAr0idG80eIqTr1DfMpPw==" miniMapVisibility="0" mapVisibility="0" fadeNear="2000" fadeFar="2200" iconFile="Data/Icons/informational.png" iconSize="0.5" info="Skip: Must be full health. Use a leap and aim for the Arrow. Rocket boots, Ancestral Grace, Ride the Lightning, etc. After hitting button, walk into statue and follow the main path."/>
 		<POI MapID="1156" xpos="-36.7481" ypos="95.2675" zpos="76.512" type="szg.tc" GUID="wBmB4CLjOE6w7uXWKJt3xg==" miniMapVisibility="0" mapVisibility="0" fadeNear="2000" fadeFar="2200" iconFile="Data/Icons/arrow.png" iconSize="1"/>
 
 		<!-- Triple Button -->
-		<POI MapID="1156" xpos="-86.6377" ypos="190.831" zpos="-58.4637" type="szg.tc" GUID="oEAYI/HnG0KfPLx7TPBBQA==" miniMapVisibility="0" mapVisibility="0" fadeNear="2000" fadeFar="2200" iconFile="Data/Icons/informational.png" iconSize="0.5" info="One person with tons of mobility or stealth go through the portal, once you hit the button, take the portal back to the start. If the door is closed, wait for others to hit more buttons."/>
-		<Trail trailData="Data/Trails/TC_Triple_1.trl" type="szg.tc" texture="Data/Icons/trail.png" color="D81B60" fadeNear="2000" fadeFar="2200" mapDisplaySize="5"/>
-		<POI MapID="1156" xpos="-11.8731" ypos="192.556" zpos="-11.9304" type="szg.tc" GUID="LNGzUPq6tUmTSH76TfcVpg==" miniMapVisibility="0" mapVisibility="0" fadeNear="2000" fadeFar="2200" iconFile="Data/Icons/informational.png" iconSize="0.5" info="If door is closed, need more buttons hit."/>
-		<Trail trailData="Data/Trails/TC_Triple_2.trl" type="szg.tc" texture="Data/Icons/trail.png" color="D81B60" fadeNear="2000" fadeFar="2200" mapDisplaySize="5"/>
+		<POI MapID="1156" xpos="-86.6377" ypos="190.831" zpos="-58.4637" type="szg.tc" GUID="oEAYI/HnG0KfPLx7TPBBQA==" miniMapVisibility="0" mapVisibility="0" fadeNear="2000" fadeFar="2200" iconFile="Data/Icons/informational.png" iconSize="0.5" info="Triple: One person with tons of mobility or stealth go through the portal, once you hit the button, take the portal back to the start. If the door is closed, wait for main group to hit the two buttons."/>
+		<Trail trailData="Data/Trails/TC_Triple_1.trl" type="szg.tc" texture="Data/Icons/trail.png" color="FF8700" fadeNear="2000" fadeFar="2200" mapDisplaySize="5"/>
+		<POI MapID="1156" xpos="-11.8731" ypos="192.556" zpos="-11.9304" type="szg.tc" GUID="LNGzUPq6tUmTSH76TfcVpg==" miniMapVisibility="0" mapVisibility="0" fadeNear="2000" fadeFar="2200" iconFile="Data/Icons/informational.png" iconSize="0.5" info="If door is closed, waiting for the two buttons on near U platform stairs."/>
+		<Trail trailData="Data/Trails/TC_Triple_2.trl" type="szg.tc" texture="Data/Icons/trail.png" color="FF8700" fadeNear="2000" fadeFar="2200" mapDisplaySize="5"/>
 
 	</POIs>
 </OverlayData>
