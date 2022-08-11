@@ -1,8 +1,13 @@
 <OverlayData>
 	<MarkerCategory name="szg_tc" DisplayName="Twisted Castle Guide">
-		<MarkerCategory name="vers_info" isseparator="1" DisplayName="Version: 0.3"/>
+		<MarkerCategory name="vers_info" isseparator="1" DisplayName="Version: 0.4"/>
 		<MarkerCategory name="meta" DisplayName="TC Meta Path"/>
 		<MarkerCategory name="slow" DisplayName="TC Slow Intended Path" defaultToggle="0"/> <!-- Tell BlishHUD not to show the category by default -->
+		<MarkerCategory name="buttons" DisplayName="Buttons" defaultToggle="0">
+			<MarkerCategory name="locations" DisplayName="Locations (Swirl = Meta / X = Extra)" ingamevisibility="0" iconFile="Data/Icons/spiral.png"/>
+			<MarkerCategory name="meta_doors" DisplayName="Meta 5 and Doors They Open"/>
+		</MarkerCategory>
+		<MarkerCategory name="gatepaths" DisplayName="Gates Path" iconFile="Data/Icons/zone_gate.png" defaultToggle="0" ingamevisibility="0"/>
 	</MarkerCategory>
 
 	<POIs>
@@ -52,9 +57,9 @@
 		<Trail trailData="Data/Trails/Team1_Part4.trl" type="szg_tc.slow" texture="Data/Icons/inv_arrow.png" color="44D62C" fadeNear="2000" fadeFar="2200" mapDisplaySize="5"/>
 		<Trail trailData="Data/Trails/Team1_Part5.trl" type="szg_tc.slow" texture="Data/Icons/inv_arrow.png" color="44D62C" fadeNear="2000" fadeFar="2200" mapDisplaySize="5"/>
 		<POI MapID="1156" xpos="-176.075" ypos="118.701" zpos="53.4981" type="szg_tc.slow" GUID="LLTqEf4JlUmEZIPWOsaYWQ==" miniMapVisibility="0" mapVisibility="0" fadeNear="2000" fadeFar="2200" iconFile="Data/Icons/informational.png" iconSize="0.5" info="Send 1 Person to follow heart trail once they hit the button they are done."/>
-		<Trail trailData="Data/Trails/Team1_Branch1.trl" type="szg_tc.slow" texture="Data/Icons/heart.png" color="FF0000" fadeNear="2000" fadeFar="2200" mapDisplaySize="5"/>
-		<Trail trailData="Data/Trails/Team1_Branch2.trl" type="szg_tc.slow" texture="Data/Icons/heart.png" color="FF0000" fadeNear="2000" fadeFar="2200" mapDisplaySize="5"/>
-		<Trail trailData="Data/Trails/Team1_Branch3.trl" type="szg_tc.slow" texture="Data/Icons/heart.png" color="FF0000" fadeNear="2000" fadeFar="2200" mapDisplaySize="5"/>
+		<Trail trailData="Data/Trails/Team1_Branch1_Part1.trl" type="szg_tc.slow" texture="Data/Icons/heart.png" color="FF0000" fadeNear="2000" fadeFar="2200" mapDisplaySize="5"/>
+		<Trail trailData="Data/Trails/Team1_Branch1_Part2.trl" type="szg_tc.slow" texture="Data/Icons/heart.png" color="FF0000" fadeNear="2000" fadeFar="2200" mapDisplaySize="5"/>
+		<Trail trailData="Data/Trails/Team1_Branch1_Part3.trl" type="szg_tc.slow" texture="Data/Icons/heart.png" color="FF0000" fadeNear="2000" fadeFar="2200" mapDisplaySize="5"/>
 		<Trail trailData="Data/Trails/Team1_Part6.trl" type="szg_tc.slow" texture="Data/Icons/inv_arrow.png" color="44D62C" fadeNear="2000" fadeFar="2200" mapDisplaySize="5"/>
 		<POI MapID="1156" xpos="-134.977" ypos="135.002" zpos="-23.4244" type="szg_tc.slow" GUID="erZRcMj2EE69cuW2BJR4bA==" miniMapVisibility="0" mapVisibility="0" fadeNear="2000" fadeFar="2200" iconFile="Data/Icons/informational.png" iconSize="0.5" info="Send 1 Person hit the button and come back."/>
 		<Trail trailData="Data/Trails/Team1_Branch2_Part1.trl" type="szg_tc.slow" texture="Data/Icons/inv_arrow.png" color="44D62C" fadeNear="2000" fadeFar="2200" mapDisplaySize="5"/>
@@ -66,10 +71,12 @@
 		<Trail trailData="Data/Trails/Team2_Part1.trl" type="szg_tc.slow" texture="Data/Icons/circle.png" color="FF3EEB" fadeNear="2000" fadeFar="2200" mapDisplaySize="5"/>
 		<Trail trailData="Data/Trails/Team2_Part2.trl" type="szg_tc.slow" texture="Data/Icons/circle.png" color="FF3EEB" fadeNear="2000" fadeFar="2200" mapDisplaySize="5"/>
 		<POI MapID="1156" xpos="-61.3567" ypos="122.128" zpos="97.672" type="szg_tc.slow" GUID="F19/wXuNU0+FqDAcwnfSgQ==" miniMapVisibility="0" mapVisibility="0" fadeNear="2000" fadeFar="2200" iconFile="Data/Icons/informational.png" iconSize="0.5" info="Send 1 Person to follow Square trail once they hit the button they are done."/>
+		<!-- AKA Left Button -->
 		<Trail trailData="Data/Trails/Team2_Branch1_Part1.trl" type="szg_tc.slow" texture="Data/Icons/square.png" color="2F2FCC" fadeNear="2000" fadeFar="2200" mapDisplaySize="5"/>
 		<Trail trailData="Data/Trails/Team2_Branch1_Part2.trl" type="szg_tc.slow" texture="Data/Icons/square.png" color="2F2FCC" fadeNear="2000" fadeFar="2200" mapDisplaySize="5"/>
 		<Trail trailData="Data/Trails/Team2_Part3.trl" type="szg_tc.slow" texture="Data/Icons/circle.png" color="FF3EEB" fadeNear="2000" fadeFar="2200" mapDisplaySize="5"/>
 		<POI MapID="1156" xpos="-86.5003" ypos="190.873" zpos="-55.9707" type="szg_tc.slow" GUID="7tjPt4HEKUabMXp3F/kXLw==" miniMapVisibility="0" mapVisibility="0" fadeNear="2000" fadeFar="2200" iconFile="Data/Icons/informational.png" iconSize="0.5" info="Send 1 Person to follow Star trail once they hit the button they are done. Watch out for the 3 statues."/>
+		<!-- AKA Triple -->
 		<Trail trailData="Data/Trails/Team2_Branch2_Part1.trl" type="szg_tc.slow" texture="Data/Icons/star.png" color="FFFFFF" fadeNear="2000" fadeFar="2200" mapDisplaySize="5"/>
 		<Trail trailData="Data/Trails/Team2_Branch2_Part2.trl" type="szg_tc.slow" texture="Data/Icons/star.png" color="FFFFFF" fadeNear="2000" fadeFar="2200" mapDisplaySize="5"/>
 		<Trail trailData="Data/Trails/Team2_Part4.trl" type="szg_tc.slow" texture="Data/Icons/circle.png" color="FF3EEB" fadeNear="2000" fadeFar="2200" mapDisplaySize="5"/>
@@ -79,5 +86,66 @@
 		<POI MapID="1156" xpos="-15.031" ypos="173.564" zpos="50.0815" type="szg_tc.slow" GUID="KGJb+BSH+U+Cx8hAavTo7Q==" miniMapVisibility="0" mapVisibility="0" fadeNear="2000" fadeFar="2200" iconFile="Data/Icons/informational.png" iconSize="0.5" info="Team 2 Job is done."/>
 
 		
+		
+		
+		<!-- Buttons -->
+		<!-- Triple Statute Button --> 
+		<POI MapID="1156" xpos="-24.9072" ypos="191.201" zpos="30.9989" type="szg_tc.buttons.locations" GUID="vv4jf7NaCEi9pZ05IxAjtw=="/>
+		<!-- Druid Skip -->
+		<POI MapID="1156" xpos="-27.8298" ypos="95.0987" zpos="74.1944" type="szg_tc.buttons.locations" GUID="fC5nXE0+C0awXiAAOn3tRQ=="/>
+		<!-- Left -->
+		<POI MapID="1156" xpos="-2.88817" ypos="164.879" zpos="-57.2265" type="szg_tc.buttons.locations" GUID="l1IBhzIIskumz5qKoLQPaw=="/>
+		<!-- Stairs -->
+		<POI MapID="1156" xpos="-85.1913" ypos="138.127" zpos="-20.8843" type="szg_tc.buttons.locations" GUID="NZSLufdpU0qIZ+XKWLxwaw=="/>
+		<!-- Courtyard -->
+		<POI MapID="1156" xpos="-156.221" ypos="137.331" zpos="-65.4309" type="szg_tc.buttons.locations" GUID="uGmAcDsV1E6Qfdf7NTVSIg=="/>
+		<!-- E platform -->
+		<POI MapID="1156" xpos="-15.0279" ypos="173.438" zpos="53.8123" type="szg_tc.buttons.locations" iconFile="Data/Icons/x_marker.png" GUID="spo0RPE4AkK53vXRXWn7xQ=="/>
+		<!-- Sky button near that chest -->
+		<POI MapID="1156" xpos="-189.046" ypos="200.462" zpos="113.12" type="szg_tc.buttons.locations" iconFile="Data/Icons/x_marker.png" GUID="VGbIve3P8k2eLoEtcL5rMA=="/>
+		
+		<!-- Buttons Open -->
+		<Trail trailData="Data/Trails/Button_Skip_Opens.trl" type="szg_tc.buttons.meta_doors" texture="Data/Icons/solid.png" color="FFFF00" ingamevisibility="0" mapDisplaySize="1" fadeNear="2000" fadeFar="2200"/>
+		<Trail trailData="Data/Trails/Button_Left_Opens.trl" type="szg_tc.buttons.meta_doors" texture="Data/Icons/solid.png" color="FFFF00" ingamevisibility="0" mapDisplaySize="1" fadeNear="2000" fadeFar="2200"/>
+		<Trail trailData="Data/Trails/Button_Stairs_Opens.trl" type="szg_tc.buttons.meta_doors" texture="Data/Icons/solid.png" color="FFFF00" ingamevisibility="0" mapDisplaySize="1" fadeNear="2000" fadeFar="2200"/>
+		<Trail trailData="Data/Trails/Button_Courtyard_Opens.trl" type="szg_tc.buttons.meta_doors" texture="Data/Icons/solid.png" color="FFFF00" ingamevisibility="0" mapDisplaySize="1" fadeNear="2000" fadeFar="2200"/>
+		<Trail trailData="Data/Trails/Button_Triple_Opens.trl" type="szg_tc.buttons.meta_doors" texture="Data/Icons/solid.png" color="FFFF00" ingamevisibility="0" mapDisplaySize="1" fadeNear="2000" fadeFar="2200"/>
+		
+		
+		
+		<!-- Gates and where they go Gate names from the wiki image by Crypto -->
+		<POI MapID="1156" xpos="-67.3656" ypos="141.493" zpos="142.118" type="szg_tc.gatepaths" GUID="26XdiayqokSuzDiQjFUynA==" minimapvisibility="0" info="Only active once someone has made it to the end."/>
+		<!-- <Trail trailData="Data/Trails/Gate_FinishEnd.trl" type="szg_tc.gatepaths" texture="Data/Icons/solid.png" color="FF00EA" ingamevisibility="0" mapDisplaySize="1" fadeNear="2000" fadeFar="2200"/> -->
+
+		<POI MapID="1156" xpos="-66.8554" ypos="141.019" zpos="162.065" type="szg_tc.gatepaths" GUID="72X4uo72LUezZVWQdXm5mA=="/><!-- Gate 7 -->
+		<Trail trailData="Data/Trails/Gate_7.trl" type="szg_tc.gatepaths" texture="Data/Icons/solid.png" color="FF00EA" ingamevisibility="0" mapDisplaySize="1" fadeNear="2000" fadeFar="2200"/>
+		<POI MapID="1156" xpos="-81.6519" ypos="98.4751" zpos="104.993" type="szg_tc.gatepaths" GUID="AztBLRBbiEWcWhpksq88Gg=="/><!-- Gate 8 -->
+		<Trail trailData="Data/Trails/Gate_8.trl" type="szg_tc.gatepaths" texture="Data/Icons/solid.png" color="FF00EA" ingamevisibility="0" mapDisplaySize="1" fadeNear="2000" fadeFar="2200"/>
+		<POI MapID="1156" xpos="-50.7024" ypos="121.204" zpos="111.645" type="szg_tc.gatepaths" GUID="qBSS5uzw7EGbvAdr6DOvMw=="/><!-- Gate 9 -->
+		<Trail trailData="Data/Trails/Gate_9.trl" type="szg_tc.gatepaths" texture="Data/Icons/solid.png" color="FF00EA" ingamevisibility="0" mapDisplaySize="1" fadeNear="2000" fadeFar="2200"/>
+		<!-- <POI MapID="1156" xpos="12.7348" ypos="164.809" zpos="-74.8778" type="szg_tc.gatepaths" GUID="7hRFeMdWtE29GxPBU44xxA==" color="FFFF0000" info="Goes back to Start"/> --><!-- Gate 10 -->
+		<POI MapID="1156" xpos="-79.3056" ypos="122.902" zpos="83.3242" type="szg_tc.gatepaths" GUID="Q/gDfknYK0ONTNtIG8G02Q=="/><!-- Gate 11 -->
+		<Trail trailData="Data/Trails/Gate_11.trl" type="szg_tc.gatepaths" texture="Data/Icons/solid.png" color="FF00EA" ingamevisibility="0" mapDisplaySize="1" fadeNear="2000" fadeFar="2200"/>
+		<POI MapID="1156" xpos="-101.171" ypos="156.027" zpos="-26.013" type="szg_tc.gatepaths" GUID="ySo2/jl92kODeEFFHNOGhw=="/><!-- Gate 6 -->
+		<Trail trailData="Data/Trails/Gate_6.trl" type="szg_tc.gatepaths" texture="Data/Icons/solid.png" color="FF00EA" ingamevisibility="0" mapDisplaySize="1" fadeNear="2000" fadeFar="2200"/>
+		<POI MapID="1156" xpos="-99.6918" ypos="191.942" zpos="-39.0583" type="szg_tc.gatepaths" GUID="eH7Fi0CZi0C8Xm6Gaha6Bw=="/><!-- Gate 12 -->
+		<Trail trailData="Data/Trails/Gate_12.trl" type="szg_tc.gatepaths" texture="Data/Icons/solid.png" color="FF00EA" ingamevisibility="0" mapDisplaySize="1" fadeNear="2000" fadeFar="2200"/>
+		<POI MapID="1156" xpos="-73.7867" ypos="190.247" zpos="-33.0545" type="szg_tc.gatepaths" GUID="E5GocPvzLEaXH0wZLZqxcg=="/><!-- Gate 14 -->
+		<Trail trailData="Data/Trails/Gate_14.trl" type="szg_tc.gatepaths" texture="Data/Icons/solid.png" color="FF00EA" ingamevisibility="0" mapDisplaySize="1" fadeNear="2000" fadeFar="2200"/>
+		<POI MapID="1156" xpos="-171.25" ypos="118.672" zpos="42.0202" type="szg_tc.gatepaths" GUID="THUHiqk4/EK8u08S7V/SJw=="/><!-- Gate 5 -->
+		<Trail trailData="Data/Trails/Gate_5.trl" type="szg_tc.gatepaths" texture="Data/Icons/solid.png" color="FF00EA" ingamevisibility="0" mapDisplaySize="1" fadeNear="2000" fadeFar="2200"/>
+		<POI MapID="1156" xpos="-190.683" ypos="119.246" zpos="41.6899" type="szg_tc.gatepaths" GUID="niJDaJ6f3ECrfqxYq566+A=="/><!-- Gate 17 -->
+		<Trail trailData="Data/Trails/Gate_17.trl" type="szg_tc.gatepaths" texture="Data/Icons/solid.png" color="FF00EA" ingamevisibility="0" mapDisplaySize="1" fadeNear="2000" fadeFar="2200"/>
+		<POI MapID="1156" xpos="-108.503" ypos="141.019" zpos="141.824" type="szg_tc.gatepaths" GUID="WT33Z4ODdEy5alq/Fa7gyA=="/><!-- Gate 1 -->
+		<Trail trailData="Data/Trails/Gate_1.trl" type="szg_tc.gatepaths" texture="Data/Icons/solid.png" color="FF00EA" ingamevisibility="0" mapDisplaySize="1" fadeNear="2000" fadeFar="2200"/>
+		<POI MapID="1156" xpos="-122.435" ypos="197.659" zpos="-15.8676" type="szg_tc.gatepaths" GUID="iTr0/WmT6kqJnAWlxDwDnQ=="/><!-- Gate 18 -->
+		<Trail trailData="Data/Trails/Gate_18.trl" type="szg_tc.gatepaths" texture="Data/Icons/solid.png" color="FF00EA" ingamevisibility="0" mapDisplaySize="1" fadeNear="2000" fadeFar="2200"/>
+		<POI MapID="1156" xpos="-143.182" ypos="162.896" zpos="83.7284" type="szg_tc.gatepaths" GUID="nAVOQSGdGk+sMoIIf9jNrA=="/><!-- Gate 4 -->
+		<Trail trailData="Data/Trails/Gate_4.trl" type="szg_tc.gatepaths" texture="Data/Icons/solid.png" color="FF00EA" ingamevisibility="0" mapDisplaySize="1" fadeNear="2000" fadeFar="2200"/>
+		<POI MapID="1156" xpos="-16.4121" ypos="169.414" zpos="137.824" type="szg_tc.gatepaths" GUID="FC9Q+WCzVka1HClhJ8tEUA=="/><!-- Gate 2 -->
+		<Trail trailData="Data/Trails/Gate_2.trl" type="szg_tc.gatepaths" texture="Data/Icons/solid.png" color="FF00EA" ingamevisibility="0" mapDisplaySize="1" fadeNear="2000" fadeFar="2200"/>
+		<POI MapID="1156" xpos="-20.129" ypos="97.2566" zpos="29.9037" type="szg_tc.gatepaths" GUID="7+PxNHNUzUWNcooj4YbFgw=="/><!-- Gate 3 -->
+		<Trail trailData="Data/Trails/Gate_3.trl" type="szg_tc.gatepaths" texture="Data/Icons/solid.png" color="FF00EA" ingamevisibility="0" mapDisplaySize="1" fadeNear="2000" fadeFar="2200"/>
+
 	</POIs>
 </OverlayData>
