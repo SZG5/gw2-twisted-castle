@@ -5,7 +5,7 @@
 		<MarkerCategory name="slow" DisplayName="TC Slow Intended Path" defaultToggle="0"/> <!-- Tell BlishHUD not to show the category by default -->
 		<MarkerCategory name="buttons" DisplayName="Buttons" defaultToggle="0">
 			<MarkerCategory name="locations" DisplayName="Locations (Swirl = Meta / X = Extra)" ingamevisibility="0" iconFile="Data/Icons/spiral.png"/>
-			<MarkerCategory name="meta_doors" DisplayName="Meta 5 and Doors They Open"/>
+			<MarkerCategory name="meta_doors" DisplayName="Meta 5 and Doors They *MIGHT* Open"/>
 		</MarkerCategory>
 		<MarkerCategory name="gatepaths" DisplayName="Gates Path" iconFile="Data/Icons/zone_gate.png" defaultToggle="0" ingamevisibility="0"/>
 	</MarkerCategory>
@@ -46,7 +46,7 @@
 
 
 
-		<!-- TC Slow Intended Path  -->
+		<!-- TC Slow Intended Path -->
 		
 		<POI MapID="1156" xpos="-96.33" ypos="151.077" zpos="197.482" type="szg_tc.slow" GUID="M5MtHcaHykaoIBg0hC6u8A==" miniMapVisibility="0" mapVisibility="0" fadeNear="2000" fadeFar="2200" iconFile="Data/Icons/informational.png" iconSize="0.5" info="Anet's Intended Route (Don't use unless people suck at the skips): &#xA;-->Split into a Team 1/Arrow (6 People) and Team 2/Circle (4 People)&#xA;-->Team 1 assign someone to Heart to take a branch and hit 1 button.&#xA;-->Team 2 assign 1 person Square and 1 person Star they will branch and hit 1 button.&#xA;-->Each symbol person will hit 1 button and their job is done.&#xA;-->Team 2 is done once they hit the button on E platform."/>
 
@@ -80,7 +80,6 @@
 		<Trail trailData="Data/Trails/Team2_Branch2_Part1.trl" type="szg_tc.slow" texture="Data/Icons/star.png" color="FFFFFF" fadeNear="2000" fadeFar="2200" mapDisplaySize="5"/>
 		<Trail trailData="Data/Trails/Team2_Branch2_Part2.trl" type="szg_tc.slow" texture="Data/Icons/star.png" color="FFFFFF" fadeNear="2000" fadeFar="2200" mapDisplaySize="5"/>
 		<Trail trailData="Data/Trails/Team2_Part4.trl" type="szg_tc.slow" texture="Data/Icons/circle.png" color="FF3EEB" fadeNear="2000" fadeFar="2200" mapDisplaySize="5"/>
-		<!-- Can't reach the part for part 5 with the gates off -->
 		<Trail trailData="Data/Trails/Team2_Part5.trl" type="szg_tc.slow" texture="Data/Icons/circle.png" color="FF3EEB" fadeNear="2000" fadeFar="2200" mapDisplaySize="5"/>
 		<Trail trailData="Data/Trails/Team2_Part6.trl" type="szg_tc.slow" texture="Data/Icons/circle.png" color="FF3EEB" fadeNear="2000" fadeFar="2200" mapDisplaySize="5"/>
 		<POI MapID="1156" xpos="-15.031" ypos="173.564" zpos="50.0815" type="szg_tc.slow" GUID="KGJb+BSH+U+Cx8hAavTo7Q==" miniMapVisibility="0" mapVisibility="0" fadeNear="2000" fadeFar="2200" iconFile="Data/Icons/informational.png" iconSize="0.5" info="Team 2 Job is done."/>
